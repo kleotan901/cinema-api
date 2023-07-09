@@ -25,9 +25,13 @@ python manage.py runserver
 
 Docker should be installed
 
+* Use .dockerignore for ignoring unnecessary stuff in your images;
+* Use Dockerfile for building app image with DRF application;
+* Use docker-compose.yml file for managing multiple services (containers) at the same time;
+
 ```shell
 docker-compose build
-docker-compose run
+docker-compose up
 ```
 ## Getting access
 * Create user via api/user/register
